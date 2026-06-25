@@ -1,61 +1,60 @@
- Mahalle Kahramanı - 3D Sel Afeti Eğitim Oyunu
+#  Mahalle Kahramanı - 3D Sel Afeti Eğitim Oyunu
 
 > **Unity ile geliştirilen 3 boyutlu eğitici sel afeti farkındalık oyunu**
 
- Proje Hakkında
+---
 
-**Mahalle Kahramanı**, oyuncuların sel öncesinde alınması gereken doğru önlemleri uygulamalı olarak öğrenmesini sağlayan 3 boyutlu bir eğitim oyunudur.
+#  Proje Hakkında
 
-Oyuncu, evindeki güvenlik önlemlerini tamamladıktan sonra komşularını uyarır, güvenli alana yönlendirir ve ulaşılamayan bir komşu için **112 Acil Çağrı Merkezi** ile iletişime geçerek doğru afet davranışını uygular.
+**Mahalle Kahramanı**, Unity oyun motoru kullanılarak geliştirilmiş 3 boyutlu eğitici bir afet farkındalık oyunudur.
 
-
-
- Projenin Amacı
-
-Bu projenin amacı;
-
-* Sel afetine karşı farkındalık oluşturmak
-* Doğru afet davranışlarını öğretmek
-* Hızlı karar verme becerisini geliştirmek
-* 112 Acil Çağrı bilincini kazandırmak
-* Komşuluk dayanışmasının önemini göstermek
+Oyuncu, sel öncesinde yapılması gereken doğru hazırlıkları tamamlayarak hem kendi güvenliğini hem de komşularının güvenliğini sağlamaya çalışır. Oyun sonunda ulaşılamayan bir komşu için **112 Acil Çağrı Merkezi** aranarak doğru afet bilinci kazandırılır.
 
 ---
 
- Hedef Kitle
+#  Projenin Amacı
+
+Bu proje ile oyuncuların;
+
+* Sel afetine karşı farkındalık kazanması
+* Doğru afet davranışlarını öğrenmesi
+* Hızlı karar verme becerisini geliştirmesi
+* 112 Acil Çağrı bilincini kazanması
+* Komşuluk dayanışmasının önemini kavraması
+
+amaçlanmıştır.
+
+---
+
+#  Hedef Kitle
 
 * 10-12 yaş grubu öğrenciler
-* Afet bilinci kazanmak isteyen tüm kullanıcılar
+* Afet farkındalığı kazanmak isteyen tüm kullanıcılar
 
 ---
 
- Oyun Senaryosu
+#  Oyun Senaryosu
 
-Meteoroloji tarafından yapılan yoğun yağış uyarısının ardından oyuncu evinde gerekli hazırlıkları yapmaya başlar.
+Meteoroloji tarafından yapılan yoğun yağış uyarısının ardından oyuncu evindeki güvenlik hazırlıklarını yapmaya başlar.
 
-Oyuncu;
+Görevler sırasıyla tamamlandıktan sonra komşular tek tek uyarılır ve güvenli bölgeye yönlendirilir.
 
-* Su vanasını kapatır.
-* Laptopu güvenli alana taşır.
-* Bilgisayar kasasını güvenli alana taşır.
-* Komşularını tek tek uyarır.
-* Güvenli alana ulaşır.
-* Ulaşılamayan İbrahim Amca için 112 Acil Çağrı Merkezini arayarak yardım ister.
+İbrahim Amca'ya ulaşılamadığı için oyuncu güvenli alana geçtikten sonra **112 Acil Çağrı Merkezi** ile iletişime geçerek yardım talebinde bulunur.
 
-Tüm görevler başarıyla tamamlandığında oyun sona erer.
+Tüm görevler tamamlandığında oyun başarıyla sona erer.
 
+---
 
-
- Oyun Özellikleri
+#  Oyun Özellikleri
 
 *  3D Unity ortamı
-*  Görev tabanlı oynanış
 *  Süre sistemi
 *  Puan sistemi
 *  İlerleme çubuğu
 *  Yağmur efekti
 *  Su yükselme sistemi
-*  Eşya taşıma sistemi
+*  Laptop taşıma görevi
+*  Bilgisayar kasasını güvenli alana taşıma
 *  Vana kapatma görevi
 *  Komşuları uyarma sistemi
 *  NPC hareket sistemi (NavMesh)
@@ -67,96 +66,102 @@ Tüm görevler başarıyla tamamlandığında oyun sona erer.
 
 #  Kontroller
 
-| Tuş         | Görev                            |
-| ----------- | -------------------------------- |
-| W A S D     | Hareket                          |
-| Mouse       | Kamerayı kontrol et              |
-| F           | Eşya al / bırak                  |
-| Q - E       | Nesneyi döndür                   |
-| Mouse Wheel | Nesneyi yaklaştır / uzaklaştır   |
-| E           | Komşuları uyar / Kapı etkileşimi |
+| Tuş             | Görev                              |
+| --------------- | ---------------------------------- |
+| **W A S D**     | Hareket                            |
+| **Mouse**       | Kamera kontrolü                    |
+| **F**           | Eşya alma / bırakma                |
+| **Q / E**       | Nesneyi döndürme                   |
+| **Mouse Wheel** | Nesneyi yaklaştırma / uzaklaştırma |
+| **E**           | Kapı ve komşu etkileşimi           |
 
 ---
 
 #  Oyun İçi Görseller
 
-## Giriş Ekranı
+##  Giriş Ekranı
 
-![Giriş Ekranı](Giriş%20Ekranı.png)
-
----
-
-## Vana Görevi
-
-![Vana Görevi](Vana%20Görevi.png)
+![Giriş Ekranı](Oyun%20İçi%20Görseller/Giriş%20Ekranı.png)
 
 ---
 
-## Görev Ekranı
+##  Vana Görevi
 
-![Görev Ekranı](Görev%20Ekranı.png)
-
----
-
-## Laptop Taşıma Görevi
-
-![Laptop Görevi](Laptop%20Görevi.png)
+![Vana Görevi](Oyun%20İçi%20Görseller/Vana%20Görevi.png)
 
 ---
 
-## Laptop Yer Seçimi
+##  Görev Ekranı
 
-![Laptop Yer Seçimi](Laptop%20Yer%20Seçimi.png)
-
----
-
-## Komşuları Uyarma
-
-![Komşuları Uyarma](Komşu%20Uyarma.png)
+![Görev Ekranı](Oyun%20İçi%20Görseller/Görev%20Ekranı.png)
 
 ---
 
-## Komşuları Uyarma Görevi
+##  Laptop Taşıma Görevi
 
-![Komşuları Uyarma Görevi](Komşu%20Uyarma%20Görevi.png)
-
----
-
-## Güvenli Alana Gitme
-
-![Güvenli Alana Gitme](Güvenli%20Alana%20Gitme.png)
+![Laptop Görevi](Oyun%20İçi%20Görseller/Laptop%20Görevi.png)
 
 ---
 
-## Mahallenin Sel Altında Kalması
+##  Laptop Yer Seçimi
 
-![Mahallenin Sel Altında Kalması](Mahallenin%20Sel%20Altında%20Kalması.png)
-
----
-
-## 112 Acil Çağrı Paneli
-
-![112 Paneli](112%20Paneli.png)
+![Laptop Yer Seçimi](Oyun%20İçi%20Görseller/Laptop%20Yer%20Seçimi.png)
 
 ---
 
-## İbrahim Amca İçin Yardım Çağrısı
+##  Komşu Uyarma
 
-![Yardım Çağrısı](Yardım%20Çağrısı.png)
-
----
-
-## Oyun Sonu
-
-![Bitiş Ekranı](Bitiş%20Ekranı.png)
+![Komşu Uyarma](Oyun%20İçi%20Görseller/Komşu%20Uyarma.png)
 
 ---
 
-# Tanıtım Videosu
+##  Komşu Uyarma Görevi
 
-Projenin tanıtım videosuna aşağıdaki bağlantıdan ulaşabilirsiniz.
+![Komşu Uyarma Görevi](Oyun%20İçi%20Görseller/Komşu%20Uyarma%20Görevi.png)
 
-**YouTube:**
+---
+
+##  Güvenli Alana Gitme
+
+![Güvenli Alana Gitme](Oyun%20İçi%20Görseller/Güvenli%20Alana%20Gitme.png)
+
+---
+
+##  Güvenli Alana Yönlendirme
+
+![Güvenli Alana Yönlendirme](Oyun%20İçi%20Görseller/Güvenli%20Alana%20Yönlendirme.png)
+
+---
+
+##  Mahallenin Sel Altında Kalması
+
+![Mahallenin Sel Altında Kalması](Oyun%20İçi%20Görseller/Mahallenin%20Sel%20Altında%20Kalması.png)
+
+---
+
+##  112 Acil Çağrı Paneli
+
+![112 Paneli](Oyun%20İçi%20Görseller/112%20Paneli.png)
+
+---
+
+##  İbrahim Amca İçin Yardım Çağrısı
+
+![Yardım Çağrısı](Oyun%20İçi%20Görseller/Yardım%20Çağrısı.png)
+
+---
+
+##  Oyun Sonu
+
+![Bitiş Ekranı](Oyun%20İçi%20Görseller/Bitiş%20Ekranı.png)
+
+---
+
+#  Tanıtım Videosu
+
+Projeye ait tanıtım videosunu aşağıdaki bağlantıdan izleyebilirsiniz.
+
+🔗 **YouTube:**
 https://youtu.be/QhtWGsdw36Y
 
 ---
@@ -177,6 +182,8 @@ https://youtu.be/QhtWGsdw36Y
 #  Geliştirici
 
 Dilek Tombul 
-Okul no :132430033
+132430033
+
 Ders:Oyun Programlama
-Yıl: 2026
+
+Yıl:2026
